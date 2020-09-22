@@ -1,0 +1,20 @@
+.bd-example::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.i1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
+}
+.d-flex{
+    margin-bottom: 20px;
+}
